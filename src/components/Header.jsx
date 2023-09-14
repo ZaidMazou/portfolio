@@ -6,7 +6,7 @@ const Header = () => {
     const header = useRef()
     useEffect(() => {
         const type = new Typed(hi.current, {
-            strings: ['Dévellopeur', 'Créateur','Administrateur réseaux'],
+            strings: ['Développeur', 'Créateur','Administrateur réseaux'],
             typeSpeed: 100,
             backSpeed:100,
             fadeOut:true,

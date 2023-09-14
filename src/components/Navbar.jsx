@@ -40,7 +40,7 @@ const Navbar = () => {
                 <h2 className=' text-[30px] text-[--green] font-semibold items-center px-5'>MZ</h2>
             </div>
             <ul className=' w-auto flex p-3 items-center navul' ref={navul}>
-                <li><a href="#"className=' text-[--blanc] mx-[8px] font-semibold text-[15px]'>About</a></li>
+                <li><a href="#about"className=' text-[--blanc] mx-[8px] font-semibold text-[15px]'>About</a></li>
                 <li><a href="#"className=' text-[--blanc] mx-[8px] font-semibold text-[15px]'>Experience</a></li>
                 <li><a href="#"className=' text-[--blanc] mx-[8px] font-semibold text-[15px]'>Works</a></li>
                 <li><a href="#"className=' text-[--blanc] mx-[8px] font-semibold text-[15px]'>Contact</a></li>
