@@ -41,10 +41,10 @@ const Navbar = () => {
             </div>
             <ul className=' w-auto flex p-3 items-center navul' ref={navul}>
                 <li><a href="#about"className=' text-[--blanc] mx-[8px] font-semibold text-[15px]'>About</a></li>
-                <li><a href="#"className=' text-[--blanc] mx-[8px] font-semibold text-[15px]'>Experience</a></li>
-                <li><a href="#"className=' text-[--blanc] mx-[8px] font-semibold text-[15px]'>Works</a></li>
-                <li><a href="#"className=' text-[--blanc] mx-[8px] font-semibold text-[15px]'>Contact</a></li>
-                <a href="/cv/cv.docx" className=' p-1 bg-transparent text-[--green] border text-[13px] rounded border-[--green] mx-[8px]' id='btn' onClick={handleclick}>Resume</a>
+                <li><a href="#experience"className=' text-[--blanc] mx-[8px] font-semibold text-[15px]'>Experience</a></li>
+                <li><a href="#works"className=' text-[--blanc] mx-[8px] font-semibold text-[15px]'>Works</a></li>
+                <li><a href="#contact"className=' text-[--blanc] mx-[8px] font-semibold text-[15px]'>Contact</a></li>
+                <a href="cv/cv.docx" className=' p-1 bg-transparent text-[--green] border text-[13px] rounded border-[--green] mx-[8px]' id='btn' onClick={handleclick}>Resume</a>
             </ul>
             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" className="bi bi-list text-[--blanc]" viewBox="0 0 16 16" id='listsvg' ref={listsvg}>
                 <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>

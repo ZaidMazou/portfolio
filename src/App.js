@@ -1,5 +1,7 @@
 import About from "./components/About";
+import Contact from "./components/Contact";
 import Experience from "./components/Experience";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Logo from "./components/Logo";
 import Navbar from "./components/Navbar";
@@ -20,6 +22,9 @@ function App() {
       <Experience/>
       <Spacer title={'Travaux'}/>
       <Works/>
+      <Spacer title={'Contact'}/>
+      <Contact/>
+      <Footer/>
     </>
   );
 }
