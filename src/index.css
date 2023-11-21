@@ -9,6 +9,7 @@
     --light:#9AAFD9;
     --lightblue:#5D75A6;
     --green:#03A678;
+    --som:#00000018;
 }
 ::-webkit-scrollbar{
     display: none;
@@ -20,7 +21,7 @@ body{
     background-color: var(--blue);
 }
 .nav{
-    background: var(--blanc);
+    background: var(--blue);
     color: #03A678;
     transition: 0.5s ease;
 }
@@ -90,6 +91,8 @@ body{
         height:60px;
         position:fixed;
         top:0;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     #listsvg{
         display: block;
@@ -103,8 +106,8 @@ body{
         transform: translateX(100vw);
         flex-direction: column;
         width: 90vw;
-        height: 50vh;
-        background: #09081a;
+        height: 100vh;
+        background: #09081A;
         color: #f1f1f1;
         padding: 10px;
         z-index: 100;
@@ -114,9 +117,6 @@ body{
     }
     .navul  a {
         font-size: 25px;
-    }
-    .navul.active{
-        transform: translateX(0);
     }
     .nav.active svg{
         color:var(--green)
@@ -131,7 +131,7 @@ body{
         margin-bottom: 20px;
     }
     #header h1{
-        font-size:35px;
+        font-size:25px;
     }
     #header #par{
         width:96vw;
@@ -144,6 +144,8 @@ body{
     }
     #about{
         width:100vw;
+        padding-left: 20px;
+        padding-right: 20px;
         flex-direction:column;
     }
     #about div{
@@ -154,5 +156,10 @@ body{
     #about p{
         font-size:20px;
     }
-
+    #works{
+        width: 540vw;
+    }
+    #works #projet{
+        width: 90vw;
+    }
 }

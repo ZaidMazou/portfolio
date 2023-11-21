@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div className='p-10 h-auto mb-20' id='contact'>
+        <div className='py-10 h-auto mb-20 px-[80px]' id='contact'>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
                 <div class="rounded-lg overflow-hidden" id='projet'>
                     <a href="#">
